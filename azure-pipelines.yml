@@ -22,7 +22,7 @@ steps:
     goals: 'package'
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(agent.builddirectory)'
+    SourceFolder: ''
     Contents: '**/*.war'
     TargetFolder: '$(build.artifactstagingdirectory)'
 - task: PublishBuildArtifacts@1
