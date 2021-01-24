@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 # vinod seth triggered the pipe line
 trigger:
-- main
+- master
 
 pool:
   vmImage: 'ubuntu-latest'
